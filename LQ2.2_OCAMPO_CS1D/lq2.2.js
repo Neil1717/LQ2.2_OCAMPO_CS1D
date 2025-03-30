@@ -12,11 +12,11 @@ if (user_password === password) { // this line of code will compare teh password
 }
 
 //#2
-let dog_breed = prompt("Please enter the dog breed:");
-let print_count = parseInt(prompt("Please enter how many times to print:"));
+let dog_breed = prompt("Please enter the dog breed:"); // this line of code will store the users input in variable dog_breed, it will show a dialog box asking the them to enter the dog breed  
+let print_count = parseInt(prompt("Please enter how many times to print:")); // this variable will store the amount of how many times the user wants to print, the pareInt will convert any unexpected val to int  
 
-for (let i = 0; i < print_count; i++){
-    console.log(dog_breed);
+for (let i = 0; i < print_count; i++){ // this for loop will continue as long as i is less than print_count, it will add by 1 in each iteration 
+    console.log(dog_breed); // this line of code will display the output
 }
 
 //#3
